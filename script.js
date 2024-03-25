@@ -12,5 +12,16 @@ const Table = [
  'Fedez', 
  'Amadeus', 
  'Fiorello']
- 
+
 console.log(Table);
+
+Table.forEach((element, posto, array) => {
+    let placeholder = {
+        tablename : 'Vip Table',
+        guestName : element,
+        place : posto,
+    };
+    let invitation = [];
+    invitation.push(placeholder)
+    console.log(invitation);
+});
