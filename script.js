@@ -82,3 +82,12 @@ console.log(studentsCaps);
 
 
 
+//2. Dobbiamo creare una lista di tutti gli studenti 
+//che hanno un totale di voti superiore a 70
+
+const Grade = students.filter((element) => element.Grade >= 70);
+console.log(Grade);
+
+
+//3. Dobbiamo creare una lista di tutti gli studenti che hanno
+//un totale di voti superiore a 70 e id superiore a 120
