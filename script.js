@@ -69,4 +69,16 @@ const students = [
 
 ]
 
-console.log(students)
+console.log(students);
+
+
+//1. Per preparare l'aula di un nuovo corso, dobbiamo stampare le 
+//targhe col nome degli studenti: 
+//creare una lista contenente il loro nome tutto in maiuscolo
+
+
+const studentsCaps = students.map((element) => element.Name.toUpperCase());
+console.log(studentsCaps);
+
+
+
