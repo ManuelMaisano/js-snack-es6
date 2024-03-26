@@ -25,3 +25,48 @@ Table.forEach((element, posto, array) => {
     invitation.push(placeholder)
     console.log(invitation);
 });
+
+//SNACK 2
+
+const students = [
+   
+    {
+        Name : 'Marco della Rovere',
+        id : 213,
+        Grade : 78
+    },
+    {
+        Name : 'Paola Cortellessa',
+        id : 110,
+        Grade : 96
+    },
+    {
+        Name :'Andrea Mantegna',
+        id : 145,
+        Grade : 48
+    },
+    {
+        Name :'Gaia Borromini',
+        id : 196,
+        Grade : 68
+    },
+    {
+        Name :'Luigi Grimaldello',
+        id : 196,
+        Grade : 68
+    },
+   
+    {
+        Name : 'Piero della Francesca',
+        id :  102,
+        Grade : 50
+    },
+    {
+        Name : 'Francesca da Polenta',
+        id :  120,
+        Grade : 84
+    },
+
+]
+
+console.log(students)
