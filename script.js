@@ -126,3 +126,5 @@ const racingbike =  [
     },
 
 ];
+
+console.log(racingbike);
